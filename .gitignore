@@ -1,3 +1,5 @@
+.gitignore
+
 # Dossiers de sortie de compilation et de construction
 target/
 
