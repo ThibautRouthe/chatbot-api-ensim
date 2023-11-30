@@ -1,68 +1,25 @@
-# Dossiers de sortie de compilation
-bin/
-Debug/
-Release/
-x64/
-x86/
+# Dossiers de sortie de compilation et de construction
+target/
 
-# Fichiers de projet Visual Studio
-*.suo
-*.user
-*.sdf
-*.opensdf
-*.VC.db
-*.VC.VC.opendb
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+.project
+.classpath
 
-# Fichiers temporaires Visual Studio
-ipch/
-*.aps
-*.ncb
-*.opendb
-
-# Dossiers spécifiques aux configurations de Visual Studio
-*.sln.docstates
-
-# Fichiers de sauvegarde temporaires
+# Fichiers de sauvegarde et temporaires
 *~
-*.bak
-*.backup
 *.swp
 
-# Fichiers de configuration Visual Studio Code
-.vscode/
-
-# Fichiers de configuration CMake
-CMakeFiles/
-CMakeCache.txt
-CMakeScripts/
-CMakeScripts/
-
-# Fichiers de build générés par CMake
-Makefile
-cmake_install.cmake
-CMakeSettings.json
-CMakeSettings.json.tmp
-
-# Fichiers de compilation C++
-*.obj
-*.o
-*.pdb
-*.idb
-*.ilk
-*.exe
-*.dll
-*.lib
-*.exp
-*.ipdb
-*.iobj
-
-# Fichiers de logs
+# Logs et fichiers temporaires
 *.log
-*.log.*
-*.stackdump
+logs/
+
+# Fichiers de dépendances Maven
+*.jar
+*.war
+lib/
 
 # Fichiers de configuration spécifiques à l'utilisateur
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+*.iml
+.settings/
