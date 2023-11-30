@@ -1,3 +1,31 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+.gitignore
+
+# Dossiers de sortie de compilation et de construction
+target/
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+.project
+.classpath
+
+# Fichiers de sauvegarde et temporaires
+*~
+*.swp
+
+# Logs et fichiers temporaires
+*.log
+logs/
+
+# Fichiers de dépendances Maven
+*.jar
+*.war
+lib/
+
+# Fichiers de configuration spécifiques à l'utilisateur
+*.iml
+.settings/
