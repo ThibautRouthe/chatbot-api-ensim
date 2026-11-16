@@ -32,7 +32,7 @@ public class MessageRestController {
 		HttpEntity<Message> requestEntity = new HttpEntity<>(telegramMessage, headers);
 
 		RestTemplate restTemplate = new RestTemplate();
-		String apiUrl = "https://api.telegram.org/bot"+telegramBotApiKey"/sendMessage";
+		String apiUrl = "https://api.telegram.org/bot"+telegramBotApiKey+"/sendMessage";
 		ResponseEntity<String> responseEntity = restTemplate.exchange(apiUrl, HttpMethod.POST, requestEntity, String.class);
 
 		if (responseEntity.getStatusCode() != HttpStatus.OK) {
